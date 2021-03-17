@@ -1,0 +1,82 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  color: #000;
+}
+
+.list {
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.list__form {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  padding: 5rem;
+  box-shadow: 0 18px 36px 0 rgba(158, 89, 89, 0.7);
+}
+.list__form--Name {
+  font-size: 2rem;
+}
+.list__form--Des {
+  font-size: 2rem;
+}
+.list__form--nameInput, .list__form--desInput {
+  min-width: 40rem;
+  font-size: 1.6rem;
+}
+.list__form--nameInput {
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+}
+.list__form--desInput {
+  margin-left: 1.4rem;
+  margin-bottom: 3rem;
+}
+.list__form #create, .list__form #update {
+  border-radius: 3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 22rem;
+  box-shadow: 0 10px 36px 0 rgba(158, 89, 89, 0.7);
+}
+
+ul {
+  padding: 2rem;
+}
+
+li {
+  font-size: 2rem;
+  list-style: none;
+}
+
+#list-courses {
+  margin-left: 12rem;
+}
+#list-courses .btn {
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 8px 4px 0 rgba(158, 89, 89, 0.7);
+  margin-bottom: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
